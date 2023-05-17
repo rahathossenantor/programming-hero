@@ -17,4 +17,10 @@ body{
 } */
 #banner{
     margin: 4rem;
+    height: 50vh;
+}
+.achievements{
+    padding: 1.7rem 0;
+    background-color: #211548;
+    border-radius: 20px;
 }
