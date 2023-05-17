@@ -1,26 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
     outline: 0;
+    font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 3.5rem;
+}
+
 body{
     background-color: #100929;
 }
+
 .navbar{
     background-color: #100929;
 }
 .nav-link, .active{
     color: #ffffff !important;
 }
-/* .nav-link, .active:hover{
-    color: #5E4DF9 !important;
-} */
+
 #banner{
     margin: 4rem;
     height: 50vh;
 }
+
 .achievements{
     padding: 1.7rem 0;
     background-color: #211548;
     border-radius: 20px;
+}
+
+#best-app{
+    margin: 4rem;
+    color: white;
+}
+#best-app h1 span{
+    color: #F8AD2E;
+}
+.media{
+    margin-top: 3rem;
+}
+.best-app{
+    padding: 2rem 1rem 0;
+    background-color: #211548;
+    border-radius: 20px;
+}
+.text-left{
+    text-align: left;
+}
+.red-bg{
+    margin-top: 2rem;
+    background-color: #FF3F6B;
 }
