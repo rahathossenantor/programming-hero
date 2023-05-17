@@ -12,3 +12,9 @@ body{
 .nav-link, .active{
     color: #ffffff !important;
 }
+/* .nav-link, .active:hover{
+    color: #5E4DF9 !important;
+} */
+#banner{
+    margin: 4rem;
+}
