@@ -26,16 +26,16 @@ body{
 }
 
 .achievements{
-    padding: 1.7rem 0;
+    padding: 1.7rem 1rem;
     background-color: #211548;
     border-radius: 20px;
 }
 
-#best-app{
+#best-app, #web-dev{
     margin: 4rem;
     color: white;
 }
-#best-app h1 span{
+#best-app h1 span, #web-dev h1 span{
     color: #F8AD2E;
 }
 .media{
@@ -52,4 +52,13 @@ body{
 .red-bg{
     margin-top: 2rem;
     background-color: #FF3F6B;
+}
+#web-dev button{
+    margin-top: 1rem;
+}
+.info{
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 4px 3px;
 }

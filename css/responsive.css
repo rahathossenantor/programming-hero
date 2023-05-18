@@ -1,0 +1,96 @@
+/* Media Queries for Responsiveness */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 575px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 3rem;
+    }
+    #banner {
+        height: 45vh;
+    }
+    #banner h1{
+        font-size: 2rem;
+    }
+    .banner-img{
+        width: 95%;
+    }
+    .best-app-phone-1, .coder-badge, .best-app-phone-2{
+        display: none;
+    }
+    .m-badge{
+        width: 55%;
+    }
+    .best-app{
+        padding-bottom: 2rem;
+    }
+    .coder-badge{
+        text-align: center;
+    }
+    .course-thumb{
+        display: none !important;
+    }
+    .course-details{
+        width: 100%;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+    .banner-img{
+        width: 85%;
+    }
+    .m-badge{
+        width: 40%;
+    }
+    .best-app-phone-1{
+        width: 80%;
+    }
+    .coder-badge img{
+        width: 90%;
+    }
+    .course-thumbnails{
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #banner{
+        height: 60vh;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .m-badge{
+        width: 40%;
+    }
+    .best-app-phone-1{
+        width: 73%;
+    }
+    .coder-badge img{
+        width: 65%;
+    }
+    .best-app-phone-2{
+        width: 85%;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .m-badge {
+        width: 40%;
+    }
+    .best-app-phone-1 {
+        width: 73%;
+    }
+}
