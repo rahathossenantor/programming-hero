@@ -25,13 +25,13 @@ body{
     height: 50vh;
 }
 
-.achievements{
+.achievements, .success-bg{
     padding: 1.7rem 1rem;
     background-color: #211548;
     border-radius: 20px;
 }
 
-#best-app, #web-dev{
+#best-app, #web-dev, #job{
     margin: 4rem;
     color: white;
 }
@@ -61,4 +61,52 @@ body{
     background-color: #ffffff;
     color: #000000;
     padding: 4px 3px;
+}
+.support{
+    margin: 2rem 0;
+    padding: 2.5rem;
+}
+.support-img{
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+}
+.mar{
+    margin-top: 1rem;
+}
+.blue{
+    background-color: #5E59FB;
+}
+.yellow{
+    background-color: #FEC43F;
+}
+#successfull h1, #job h1{
+    color: #ffffff;
+    text-align: center;
+}
+.success-bg{
+    color: #ffffff;
+    margin: 2rem 0;
+}
+.productive{
+    margin-top: 1.7rem;
+}
+.oportunity{
+    margin: 1.5rem 0;
+    width: 75%;
+}
+footer{
+    margin-top: 4rem;
+    padding-top: 3rem;
+    color: #ffffff;
+    border-top: 1px solid #302e65;
+}
+.footer-icon a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.last-foot{
+    margin-top: 1.5rem;
 }

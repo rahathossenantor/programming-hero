@@ -4,7 +4,41 @@
 @media (min-width: 320px) and (max-width: 575px) {}
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .banner-img{
+        display: none !important;
+    }
+    .download-app{
+        width: 9.5rem;
+    }
+    .hide{
+        display: none;
+    }
+    .m-badge{
+        width: 55%;
+    }
+    .best-app-phone-1{
+        width: 75%;
+    }
+    .best-app{
+        margin-bottom: 2rem;
+    }
+    .coder-badge{
+        display: none;
+    }
+    .best-app-phone-2{
+        width: 90%;
+    }
+    .course-thumb{
+        margin-bottom: 1.5rem;
+    }
+    .spesial{
+        text-align: center;
+    }
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -92,5 +126,8 @@
     }
     .best-app-phone-1 {
         width: 73%;
+    }
+    .course-thumbnails{
+        width: 100%;
     }
 }
