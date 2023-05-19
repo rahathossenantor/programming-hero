@@ -1,7 +1,14 @@
 /* Media Queries for Responsiveness */
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
-@media (min-width: 320px) and (max-width: 575px) {}
+@media (min-width: 320px) and (max-width: 575px) {
+    h1{
+        font-size: 2rem;
+    }
+    .success-bg{
+        text-align: center;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
@@ -38,6 +45,15 @@
     .spesial{
         text-align: center;
     }
+    .support-img-section{
+        text-align: center;
+    }
+    .support-img{
+        width: 40%;
+    }
+    .success-bg{
+        text-align: center;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -72,6 +88,9 @@
     .course-details{
         width: 100%;
     }
+    .talent-img{
+        width: 100%;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -94,6 +113,9 @@
     .course-thumbnails{
         width: 70%;
         margin-bottom: 2rem;
+    }
+    .talent-img{
+        width: 95%;
     }
 }
 
